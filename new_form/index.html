@@ -7,6 +7,98 @@
     <title>Formulário Bin</title>
 </head>
 <body>
-    
+    <header>
+        <h2>
+            <b>Formulário BIN</b>
+        </h2>
+    </header> 
+    <section id="content">
+        <div id="formul">
+            <form class="form" method="POST" action="./email.php">
+                 <p>
+                     <b>DADOS CADASTRAIS:</b>
+                 </p>
+                 <p>
+                     <input class="field" type="number" name="cnpj" id="cnpj" placeholder="CNPJ"> <br>
+                     <input class="field" type="text" name="razao" id="razao" placeholder="RAZÃO SOCIAL"> <br>
+                     <input class="field" type="text" name="fantas" id="fantas" placeholder="NOME FANTASIA"> <br>
+                     <input class="field" type="number" name="cnae" id="cnae" placeholder="CNAE"> <br>
+                     <input class="field" type="number" name="fatu" id="fatu" placeholder="FATURAMENTO">
+                 </p>
+                     <p>
+                         <b>
+                             CONTATO:
+                         </b>
+                     </p>
+                 <p>
+                     <input class="field" type="text" name="respon" id="respon" placeholder="RESPONSÁVEL"><br>
+                     <input class="field" type="number" name="´telef" id="telef" placeholder="TELEFONE"> <br>
+                     <input class="field" type="number" name="cel" id="cel" placeholder="CELULAR"><br>
+                     <input class="field" type="text" name="email" id="email" placeholder="E-MAIL"><br>
+                     <input class="field" type="number" name="tsms" id="tsms" placeholder="TELEFONE PARA SMS"><br>
+                     <input class="field" type="text" name="vend" id="vend" placeholder="VENDEDOR">
+                 </p>
+                     <p>
+                         <b>
+                             LOGÍSTICA:
+                         </b>
+                     </p>
+                 <p>
+                     <input class="field" type="text" name="ender" id="ender" placeholder="ENDEREÇO"> <input class="field" type="number" name="numer" id="numer" placeholder="Nº"><br>
+                     <input class="field" type="text" name="bairro" id="bairro" placeholder="BAIRRO"> <input class="field" type="number" name="cep" id="cep" placeholder="CEP"><br>
+                     <input class="field" type="text" name="cidade" id="cidade" placeholder="CIDADE"> <input class="field" type="text" name="estad" id="estad" placeholder="ESTADO"><br>
+                     <input class="field" type="text" name="dias" id="dias" placeholder="DIAS DE FUNCIONAMENTO"><br>
+                     <input class="field" type="number" name="horar" id="horar" placeholder="HORÁRIO">
+                 </p>
+                     <p>
+                         <b>
+                             DOMICÍLIO BANCÁRIO:
+                         </b>
+                     </p>
+                 <p>
+                     <input class="field" type="number" name="banco" id="banco" placeholder="BANCO"><br>
+                     <input class="field" type="number" name="agencia" id="agencia" placeholder="AGÊNCIA"> <input class="field" type="number" name="conta" id="conta" placeholder="CONTA"><br>
+                 </p>
+                     <p>
+                         <b>
+                             NEGOCIAÇÃO:
+                         </b>
+                     </p>
+                 <p>
+                     <input class="field" type="number" name="debit" id="debit" placeholder="DÉBITO"><br>
+                     <input class="field" type="number" name="cred" id="cred" placeholder="CRÉDITO Á VISTA"><br>
+                     <input class="field" type="number" name="parc" id="parc" placeholder="PARCELADO 2X6"><br>
+                     <input class="field" type="number" name="parc1" id="parc1" placeholder="PARCELADO 7X12"><br>
+                     <input class="field" type="number" name="antec" id="antec" placeholder="ANTECIPAÇÃO"><br>
+                     <input class="field" type="number" name="antec1" id="antec1" placeholder="ATENCIPAÇÃO AUTOMÁTICA">
+                 </p>
+                     <p>
+                         <b>
+                             TÉCNOLOGIA:
+                         </b>
+                     </p>
+                 <p>
+                     <input class="field" type="text" name="fixa" id="fixa" placeholder="PÓS FIXA"><br>
+                     <input class="field" type="text" name="movel" id="movel" placeholder="PÓS MÓVEL"><br>
+                     <input class="field" type="text" name="commer" id="commer" placeholder="E-COMMERCE"><br>
+                     <input class="field" type="text" name="tef" id="tef" placeholder="TEF"><br>
+                     <input class="field" type="number" name="quant" id="quant" placeholder="QUANTIDADE"><br>
+                     <input class="field" type="number" name="alug" id="alug" placeholder="ALUGUEL">
+                 </p>
+                 <textarea class="field" name="mesage" id="formulario" cols="30" rows="10" placeholder="Digite sua observação aqui"></textarea>
+                 <p>
+                     <input class="field" type="submit" value="enviar" onclick="enviar()">
+                 </p>
+                        <div id="res">
+            <p><b>Ótimo trabalho! Ótimas vendas!</b></p>
+        </div>
+            </form>
+        </div>
+ 
+    </section>
+    <footer>
+        <p><i>&copy;by Jullie Rosa</i></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
