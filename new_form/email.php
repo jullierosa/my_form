@@ -34,8 +34,8 @@
     $quant = addslashes($_POST['quant']);
     $alug = addslashes($_POST['alug']);
 
-    $to = "jullierosawjk@gmail.com";
-    $subject = "Formulário - Programador Br";
+    $to = "julliewjk@gmail.com";
+    $subject = "Formulário - Attiva Pagamentos";
     $body = "CNPJ: ".$cnpj."\r\n"
             "RAZÃO SOCIAL:".$razao."\r\n"
             "NOME FANTASIA:".$fantas."\r\n"
@@ -71,7 +71,7 @@
             "QUANTIDADE:".$quant."\r\n"
             "ALUGUEL:".$alug."\r\n"
 
-    $header = "From: julliecdsr@gmail.com"."\r\n"."Reply-To: jorgekians@gmail.com"."\r\n"."X=Mailer:PHP/".phpversion();
+    $header = "From: jullierosawjk@gmail.com"."\r\n"."Reply-To:".$email."\r\n"."X=Mailer:PHP/".phpversion();
 
     if(mail($to,$subject,$body,$header)){
         echo("E-mail enviado com sucesso!");
