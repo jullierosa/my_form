@@ -36,40 +36,40 @@
 
     $to = "julliewjk@gmail.com";
     $subject = "Formulário - Attiva Pagamentos";
-    $body = "CNPJ: ".$cnpj."\r\n"
-            "RAZÃO SOCIAL:".$razao."\r\n"
-            "NOME FANTASIA:".$fantas."\r\n"
-            "CNAE:".$cnae."\r\n"
-            "FATURAMENTO:".$fatu."\r\n"
-            "RESPONSÁVEL:".$respon."\r\n"
-            "TELEFONE:".$telef."\r\n"
-            "CELULAR:".$cel."\r\n"
-            "E-MAIL:".$imail."\r\n"
-            "TELEFONE PARA SMS:".$tsms."\r\n"
-            "VENDEDOR:".$vend."\r\n"
-            "ENDEREÇO:".$ender."\r\n"
-            "Nº:".$numer."\r\n"
-            "BAIRRO: ".$bairro."\r\n"
-            "CEP:".$cep."\r\n"
-            "CIDADE:  ".$cidade."\r\n"
-            "ESTADO:".$estad."\r\n"
-            "DIAS DE FUNCIONAMENTO:".$dias."\r\n"
-            "HORÁRIO:".$horar."\r\n"
-            "BANCO:".$banco."\r\n"
-            "AGÊNCIA:".$agencia."\r\n"
-            "CONTA:".$conta."\r\n"
-            "DÉBITO:".$debit."\r\n"
-            "CRÉDITO Á VISTA:".$cred."\r\n"
-            "PARCELADO 2X6:".$parc."\r\n"
-            "PARCELADO 7X12:".$parc1."\r\n"
-            "ANTECIPAÇÃO:".$antec."\r\n"
-            "ATENCIPAÇÃO AUTOMÁTICA:".$antec1."\r\n"
-            "PÓS FIXA:".$fixa."\r\n"
-            "PÓS MÓVEL:".$movel."\r\n"
-            "E-COMMERCE:".$commer."\r\n"
-            "TEF:".$tef."\r\n"
-            "QUANTIDADE:".$quant."\r\n"
-            "ALUGUEL:".$alug."\r\n"
+    $body = "CNPJ: ".$cnpj."\r\n".
+            "RAZÃO SOCIAL:".$razao."\r\n".
+            "NOME FANTASIA:".$fantas."\r\n".
+            "CNAE:".$cnae."\r\n".
+            "FATURAMENTO:".$fatu."\r\n".
+            "RESPONSÁVEL:".$respon."\r\n".
+            "TELEFONE:".$telef."\r\n".
+            "CELULAR:".$cel."\r\n".
+            "E-MAIL:".$imail."\r\n".
+            "TELEFONE PARA SMS:".$tsms."\r\n".
+            "VENDEDOR:".$vend."\r\n".
+            "ENDEREÇO:".$ender."\r\n".
+            "Nº:".$numer."\r\n".
+            "BAIRRO: ".$bairro."\r\n".
+            "CEP:".$cep."\r\n".
+            "CIDADE:  ".$cidade."\r\n".
+            "ESTADO:".$estad."\r\n".
+            "DIAS DE FUNCIONAMENTO:".$dias."\r\n".
+            "HORÁRIO:".$horar."\r\n".
+            "BANCO:".$banco."\r\n".
+            "AGÊNCIA:".$agencia."\r\n".
+            "CONTA:".$conta."\r\n".
+            "DÉBITO:".$debit."\r\n".
+            "CRÉDITO Á VISTA:".$cred."\r\n".
+            "PARCELADO 2X6:".$parc."\r\n".
+            "PARCELADO 7X12:".$parc1."\r\n".
+            "ANTECIPAÇÃO:".$antec."\r\n".
+            "ATENCIPAÇÃO AUTOMÁTICA:".$antec1."\r\n".
+            "PÓS FIXA:".$fixa."\r\n".
+            "PÓS MÓVEL:".$movel."\r\n".
+            "E-COMMERCE:".$commer."\r\n".
+            "TEF:".$tef."\r\n".
+            "QUANTIDADE:".$quant."\r\n".
+            "ALUGUEL:".$alug."\r\n".
 
     $header = "From: jullierosawjk@gmail.com"."\r\n"."Reply-To:".$email."\r\n"."X=Mailer:PHP/".phpversion();
 
